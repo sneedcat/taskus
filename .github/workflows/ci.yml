@@ -31,7 +31,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
-        name: file2png_${{ matrix.config.os }}_${{ github.run_id }}
+        name: taskus_${{ matrix.config.os }}_${{ github.run_id }}
         path: |
           target/release/taskus.exe
           target/release/taskus
