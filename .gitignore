@@ -1,2 +1,5 @@
 /target
 .direnv
+.envrc
+Cargo.lock
+flake.lock
